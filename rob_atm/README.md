@@ -3,6 +3,12 @@
 </a>
 
 
+# [FiveM ATM Robbery Script](https://andyyy.tebex.io)
+This is the documentation for the best atm robbery script on fivem.
+You can find the resource on [andyyy.tebex.io](https://andyyy.tebex.io)
+
+<br>
+
 # Dispatch systems / police alarm:
 Integrating your own dispatch can be done in `rob_atm/bridge/<YOUR FRAMEWORK>/server.lua`
 
@@ -10,9 +16,12 @@ By default this script is integrated with `cd_dispatch`, `ps-dispatch`, and `qs-
 
 If you're using the better framework [ND_Core](https://ndcore.dev/) this script is integrated with `ND_MDT` already and will alarm police from there.
 
+<br>
 
 # Creating items:
 You can find images in `rob_atm/INSTALLATION`, for creating items correctly read below!
+
+<br>
 
 ### Ox inventory all frameworks!:
 If you're using ox_inventory then place this in `ox_inventory/data/items.lua`
@@ -38,6 +47,8 @@ If you're using ox_inventory then place this in `ox_inventory/data/items.lua`
 },
 ```
 
+<br>
+
 ### ESX other inventories:
 If you're using ESX with a different inventory than ox_inventory, run this sql:
 ```sql
@@ -46,6 +57,8 @@ INSERT INTO `items` (`name`, `label`, `weight`) VALUES
 	("rope", "Rope", 1000),
 ;
 ```
+
+<br>
 
 ### QBCore other inventories:
 If you're using QBCore with a different inventory than ox_inventory, add these items to `qb-core/shared/items.lua`
@@ -76,6 +89,21 @@ If you're using QBCore with a different inventory than ox_inventory, add these i
 },
 ```
 
+<br>
 
 ### Not using a framework?
 If you're not using a framework you can still use the drill and rope by using `/use-drill` and `/use-rope` comands.
+
+<br>
+
+# Editing the atm textures:
+If you use different atm textures than default you can modify them to your textures in `rob_atm/stream/nd_atms_txt.ytd`.
+
+<br>
+
+# Watch the v2 update video:
+If you already own this resource you can just download the latest version from keymaster again.
+
+<br>
+
+[![rob_atm_v2](https://github.com/Andyyy7666/andyyy.tebex.io/assets/86536434/bfd748f8-9fb4-4411-a7e2-9f39a1a6d04b)](https://youtu.be/gY6M71NSI5o)
