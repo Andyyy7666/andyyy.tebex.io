@@ -101,6 +101,20 @@ If you use different atm textures than default you can modify them to your textu
 
 <br>
 
+# Objects used
+If you're using an anticheat that blocks items here's the list used that you can whitelist.
+```
+nd_atm01_frame
+nd_atm02_frame
+nd_atm03_frame
+nd_atm01_part
+nd_atm02_part
+nd_amt03_part
+prop_rope_hook_01
+```
+
+<br>
+
 # Watch the v2 update video:
 If you already own this resource you can just download the latest version from keymaster again.
 
