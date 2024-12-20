@@ -24,7 +24,7 @@ You can find images in `rob_atm/INSTALLATION`, for creating items correctly read
 <br>
 
 ### Ox inventory all frameworks!:
-If you're using ox_inventory then place this in `ox_inventory/data/items.lua`
+If you're using ox_inventory then place this in `ox_inventory/data/items.lua`, if you changed the name of the items you need to change the names in `rob_atm/data/config.lua` and in the export for example if you change the "rope" name to "rope2" you need to change the export name to `rob_atm.use_item_rope2`.
 ```lua
 ["rope"] = {
     label = "Rope",
