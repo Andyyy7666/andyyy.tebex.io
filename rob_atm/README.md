@@ -115,6 +115,13 @@ prop_rope_hook_01
 
 <br>
 
+# Common issues:
+* You're using an old version of ox_lib or you have the source code downloaded, download the latest release here [ox_lib](https://github.com/overextended/ox_lib/releases), make sure you download ox_lib.zip
+* You're using an old server artifact verion, update your server from your server host or you can find the latest artifacts here for [windows](https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/) and [linux](https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/).
+* You're on an old game build, check this [tutorial](https://forum.cfx.re/t/tutorial-forcing-gamebuilds-on-fivem/4784977#p-5992800-gamebuild-versions-5) on how to set gamebuild.
+
+<br>
+
 # Watch the v2 update video:
 If you already own this resource you can just download the latest version from keymaster again.
 
